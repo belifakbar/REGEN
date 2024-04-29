@@ -49,7 +49,22 @@ Our Readme-Generator project is licensed under the MIT License. See LICENSE.txt 
 ---
 **Demo 🖥️**
 Section below is not written by AI.
-Clone this repo to give it a try.
-Just isntall 
+To get started
+
+1) Clone this repo
+2) Install the requirements.txt
+3) Run ollama using https://ollama.com. Alternatively, you may run colab_ollama on colab and use the free GPU.
+3) Create a .env file with your GitHub token
+4) Run the main.py file
+5) Enter the GitHub repository URL!
+
+
+```bash
+git clone https://github.com/ivanleech/readme-generator.git
+cd readme-generator
+pip install -r requirements.txt
+ollama serve & ollama run llama3:instruct # Separate terminal
+python main.py
+```
 
 <img src="./assets/readme-generator.gif" alt="readme generator" width="800"/>
