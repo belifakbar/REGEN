@@ -1,6 +1,6 @@
-**README File Summary 📄**
+**REGEN - An automated readme genenarator📄**
 
-Welcome to our Readme-Generator project! 🔧 This comprehensive tool is designed to generate README files for GitHub repositories, leveraging AI-powered text generation capabilities 🔩.
+Introducing REGEN - Readme-Generator 🔧 This comprehensive tool is designed to generate README files for GitHub repositories, leveraging AI-powered text generation capabilities 🔩.
 
 <img src="./assets/readme-generatorrr.gif" alt="readme generatorrr" width="400"/>
 
@@ -31,11 +31,11 @@ Our project utilizes a Python script (`main.py`) that imports essential librarie
 
 **Getting Started 🚀**
 
-To use our Readme-Generator project, simply run the `main.py` file and follow the prompts. Our tool is designed to be easy to use and provides a comprehensive solution for generating README files for GitHub repositories.
+To use REGEN, simply run the `main.py` file and follow the prompts. Our tool is designed to be easy to use and provides a comprehensive solution for generating README files for GitHub repositories.
 
 **Acknowledgments 💡**
 
-We would like to acknowledge the contributions of the Ollama team and their work on the LLM model. Their efforts have enabled us to integrate AI-powered text generation capabilities into our project.
+We would like to acknowledge the contributions of the Ollama and LlamaIndex team and their work on the LLM model. Their efforts have enabled us to integrate AI-powered text generation capabilities into our project.
 
 **Contact 📲**
 
@@ -43,7 +43,7 @@ If you have any questions or feedback, please don't hesitate to reach out. We're
 
 **License 🔒**
 
-Our Readme-Generator project is licensed under the MIT License. See LICENSE.txt for more information.
+REGEN - an automated readme generation tool is licensed under the MIT License. See LICENSE.txt for more information.
 
 
 ---
