@@ -81,7 +81,7 @@ def readme_generator_func(input_repo_file):
     vector_index = VectorStoreIndex(documents, embed_model=embed_model)
     query_engine = vector_index.as_query_engine(llm=llm)
     resp = query_engine.query(
-        f"Describe the code of {input_repo_file} in concise manner with emojis."
+        f"Describe the code of {input_repo_file} accurately in detail with emojis."
     )
     try:
         with open("./ai/AI-README.MD", "a") as f:
@@ -101,13 +101,13 @@ readme_generator = FunctionTool.from_defaults(
     fn=readme_generator_func,
     name="readme_generator",
     description=(
-        "This tool takes in file as input and explains what the file does with emojis."
+        "This tool takes in file as input and explains accurately what the file does with emojis."
         "return {'input_repo_file': 'input_repo_file', 'readme_description': 'description'}"
     ),
 )
 
 
-def cleanup_func():
+def summarize_func():
     GitDocs._git_docs = None
 
     reader = SimpleDirectoryReader(
@@ -118,15 +118,15 @@ def cleanup_func():
     vector_index = VectorStoreIndex(documents, embed_model=embed_model)
     query_engine = vector_index.as_query_engine(llm=llm)
     resp = query_engine.query(
-        "Give me summary in the format of a proper README file with emojis. Double check to ensure contents are correct."
+        "Give me detailed summary in the format of a proper README file with emojis. Double check to ensure contents are correct."
     )
-    print("cleanup done")
+    print("summarize done")
     with open("./ai/AI-README-CLEAN.MD", "w") as f:
         f.write(resp.response)
 
 
-cleanup = FunctionTool.from_defaults(
-    fn=cleanup_func,
-    name="cleanup",
+summarize = FunctionTool.from_defaults(
+    fn=summarize_func,
+    name="summarize",
     description="No input required. This tool summarizes and writes to AI-README-CLEAN.MD",
 )
