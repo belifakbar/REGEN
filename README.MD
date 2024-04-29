@@ -1,12 +1,8 @@
 **README File Summary 📄**
 
 Welcome to our Readme-Generator project! 🔧 This comprehensive tool is designed to generate README files for GitHub repositories, leveraging AI-powered text generation capabilities 🔩.
+
 <img src="./assets/readme-generatorrr.gif" alt="readme generatorrr" width="400"/>
-
-
-**Demo 🖥️**
-
-<img src="./assets/readme-generator.gif" alt="readme generator" width="700"/>
 
 
 **Overview 🌐**
@@ -48,3 +44,12 @@ If you have any questions or feedback, please don't hesitate to reach out. We're
 **License 🔒**
 
 Our Readme-Generator project is licensed under the MIT License. See LICENSE.txt for more information.
+
+
+---
+**Demo 🖥️**
+Section below is not written by AI.
+Clone this repo to give it a try.
+Just isntall 
+
+<img src="./assets/readme-generator.gif" alt="readme generator" width="800"/>
