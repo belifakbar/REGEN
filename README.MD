@@ -1,4 +1,4 @@
-**REGEN - An automated readme genenarator📄**
+**REGEN - An automated readme generator📄**
 
 Introducing REGEN - Readme-Generator 🔧 This comprehensive tool is designed to generate README files for GitHub repositories, leveraging AI-powered text generation capabilities 🔩.
 
