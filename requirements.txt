@@ -1,7 +1,6 @@
 llama-index==0.10.31
 llama-index-agent-openai==0.2.3
 llama-index-core==0.10.33
-llama-index-embeddings-huggingface==0.2.0
 llama-index-llms-ollama==0.1.2
 llama-index-readers-github==0.1.7
 llama-index-readers-llama-parse==0.1.4
